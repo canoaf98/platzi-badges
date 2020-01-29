@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Navbar.css';
 import logo from '../images/logo.svg';
 
-class Navbar extends React.Component {
+class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">

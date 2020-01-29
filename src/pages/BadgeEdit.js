@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import './styles/BadgeEdit.css';
 import header from '../images/platziconf-logo.svg';
@@ -7,7 +7,7 @@ import BadgeForm from '../components/BadgeForm';
 import PageLoading from '../components/PageLoading';
 import api from '../api';
 
-class BadgeEdit extends React.Component {
+class BadgeEdit extends Component {
   state = {
     loading: true,
     error: null,

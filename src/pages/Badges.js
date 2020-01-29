@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Badges.css';
@@ -9,7 +9,7 @@ import PageError from '../components/PageError';
 import MiniLoader from '../components/MiniLoader';
 import api from '../api';
 
-class Badges extends React.Component {
+class Badges extends Component {
   state = {
     loading: true,
     error: null,

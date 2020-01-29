@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/BadgesList.css';
 import Gravatar from './Gravatar';
 
-class BadgesListItem extends React.Component {
+class BadgesListItem extends Component {
   render() {
     return (
       <div className="BadgesListItem">

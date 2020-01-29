@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import BadgeDetails from './BadgeDetails';
 import PageLoading from '../components/PageLoading';
 import PageError from '../components/PageError';
 import api from '../api';
 
-class BadgeDetailsContainer extends React.Component {
+class BadgeDetailsContainer extends Component {
   state = {
     loading: true,
     error: null,

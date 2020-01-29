@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class BadgeForm extends React.Component {
+class BadgeForm extends Component {
   handleClick = e => {
     console.log('Button was clicked');
   };

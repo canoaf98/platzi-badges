@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import './styles/BadgeNew.css';
 import header from '../images/platziconf-logo.svg';
@@ -7,7 +7,7 @@ import BadgeForm from '../components/BadgeForm';
 import PageLoading from '../components/PageLoading';
 import api from '../api';
 
-class BadgeNew extends React.Component {
+class BadgeNew extends Component {
   state = {
     loading: false,
     error: null,
