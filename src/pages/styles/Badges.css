@@ -3,7 +3,6 @@
   padding: 2rem 0;
   background: url('../../images/stars.svg'), #1B1B25;
   background-repeat: repeat;
-  margin-bottom: 1rem;
 }
 
 .Badges__hero>.Badges__container {
@@ -26,5 +25,5 @@
 .Badges__buttons {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
